@@ -41,7 +41,7 @@ function App() {
   
   return (
     <AppContext.Provider value={{ sectionInView, setSectionInView }}>
-      <main className="relative bg-neutral-950 max-w-screen min-h-screen font-inter">
+      <main className="relative bg-neutral-900 max-w-screen min-h-screen font-inter">
         <motion.div
           onMouseMove={(event) => handleMouseMove(event)}
           className='w-full h-full flex flex-col lg:flex-row z-10'

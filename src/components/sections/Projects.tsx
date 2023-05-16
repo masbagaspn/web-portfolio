@@ -40,7 +40,7 @@ const Projects = () => {
                         onMouseEnter={() => setCurrentHoverTarget(project.name)}
                         onMouseLeave={() => setCurrentHoverTarget(undefined)}
                         className={clsx(
-                            'lg:px-12 lg:py-8 lg:rounded-md',
+                            'lg:px-12 lg:py-8 lg:rounded-md transition-all duration-300',
                             { 'rounded-md transition bg-lime-400/5 border-lime-400 shadow-sm' : currentHoverTarget === project.name },
                             { 'bg-transparent opacity-50' : currentHoverTarget !== project.name && currentHoverTarget !== undefined }
                           )}
