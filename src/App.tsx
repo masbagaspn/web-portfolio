@@ -5,7 +5,6 @@ import Profile from './components/sections/Profile'
 import About from './components/sections/About'
 import Experiences from './components/sections/Experiences'
 import Projects from './components/sections/Projects'
-import Navigation from './components/commons/Navigation'
 import useWindowSize from './hooks/useWindowSize'
 
 type AppContextValue = {
