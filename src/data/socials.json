@@ -1,0 +1,14 @@
+[
+    {
+        "id": "github",
+        "label": "GitHub",
+        "href": "https://github.com/masbagaspn",
+        "icon": "GrGithub"
+    },
+    {
+        "id": "linkedin", 
+        "label": "Linked In",
+        "href": "https://www.linkedin.com/in/mas-bagas-prasetio-510925176/",
+        "icon": "GrLinkedin"
+    }
+]

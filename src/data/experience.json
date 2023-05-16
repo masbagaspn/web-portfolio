@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "as": "Frontend Developer",
+        "contract": "Freelance",
+        "date": {
+            "joinedDate": "Oct 2022",
+            "endDate": "May 2023"
+        },
+        "company": "Upana Studio",
+        "description": "Develop Learning Management System. Produce visual elements of web application by translating UI/UX design into code while producing reusable components.",
+        "stacks": ["React", "JavaScript", "TailwindCSS"]
+    },
+    {
+        "id": 2,
+        "as": "Graphic Designer",
+        "date": {
+            "joinedDate": "Jun 2021",
+            "endDate": "Aug 2021"
+        },
+        "company": "PT Radjoetasa Adhi Karya",
+        "description": "Build guildlines for clients on how logos and other branding materials should be displayed and used. Work with other creative team members to produce branding, contents, and promotional materials.",
+        "stacks": ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Figma"]
+    }
+]
