@@ -24,7 +24,7 @@ const About = () => {
     <Section title="ABOUT">
       <div
         ref={aboutRef}
-        className="space-y-4 sm:text-xl lg:font-light lg:text-lg lg:space-y-12 xl:text-xl xl:space-y-16 2xl:text-5xl 2xl:space-y-24"
+        className="space-y-4 sm:text-xl lg:font-light lg:text-lg lg:space-y-12 xl:text-xl xl:space-y-16"
       >
         {about.description.map((s, i) => (
           <p className="flex flex-wrap gap-1" key={i}>
@@ -38,13 +38,10 @@ const About = () => {
                 w.includes("TailwindCSS") ? (
                   <span
                     key={idx}
-                    className="text-lime-400 xl:mr-1 2xl:mb-8 2xl:mr-2"
+                    className="text-lime-400 xl:mr-1"
                   >{`${w} `}</span>
                 ) : (
-                  <span
-                    className="xl:mr-1 2xl:mb-8 2xl:mr-2"
-                    key={idx}
-                  >{`${w}`}</span>
+                  <span className="xl:mr-1" key={idx}>{`${w}`}</span>
                 )
               )}
           </p>

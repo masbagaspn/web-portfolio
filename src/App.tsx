@@ -52,7 +52,7 @@ function App() {
           <div className="lg:w-2/5 lg:h-screen lg:flex lg:flex-col lg:sticky lg:top-0 lg:pl-20 lg:py-24 lg:justify-between">
             <Profile />
           </div>
-          <div className="scroll-smooth lg:w-3/5 lg:py-24 lg:px-12 lg:flex lg:flex-col lg:gap-72 xl:gap-80 2xl:gap-96">
+          <div className="scroll-smooth lg:w-3/5 lg:py-24 lg:px-12 lg:flex lg:flex-col lg:gap-72 xl:gap-80">
             <About />
             <Experiences />
             <Projects />

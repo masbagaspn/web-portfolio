@@ -31,7 +31,7 @@ const Occupations: React.FC = () => {
                 ease: "easeIn",
                 times: [0, 0.25, 0.75, 1],
               }}
-              className="absolute w-full font-bold text-lg text-lime-500 sm:text-2xl sm:font-medium lg:text-xl xl:text-2xl 2xl:text-5xl"
+              className="absolute w-full font-bold text-lg text-lime-500 sm:text-2xl sm:font-medium lg:text-xl xl:text-2xl"
             >
               {occ}
             </motion.span>

@@ -56,14 +56,14 @@ const Projects = () => {
                 }
               )}
             >
-              <h3 className="inline-flex items-center gap-1 text-lime-400 sm:text-2xl lg:text-neutral-100 lg:group-hover:text-lime-400 xl:text-2xl 2xl:text-6xl transition-color">
+              <h3 className="inline-flex items-center gap-1 text-lime-400 sm:text-2xl lg:text-neutral-100 lg:group-hover:text-lime-400 xl:text-2xl transition-color">
                 {project.name}
                 <CgArrowTopRight className="lg:scale-75 group-hover:scale-100 transition" />
               </h3>
-              <p className="mt-2 text-sm font-light sm:text-base sm:mt-6 xl:text-xl xl:leading-8 xl:mt-10 2xl:text-4xl 2xl:leading-[3.75rem] 2xl:mt-24">
+              <p className="mt-2 text-sm font-light sm:text-base sm:mt-6 xl:text-xl xl:leading-8 xl:mt-10">
                 {project.description}
               </p>
-              <div className="mt-6 flex flex-wrap gap-2 sm:mt-10 xl:mt-12 xl:gap-4 2xl:mt-16 2xl:gap-10">
+              <div className="mt-6 flex flex-wrap gap-2 sm:mt-10 xl:mt-12 xl:gap-4">
                 {project.stacks.map((stack, idx) => (
                   <Tags key={idx}>
                     <span>{stack}</span>
