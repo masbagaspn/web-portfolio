@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "rgb(255, 95, 31)"
-      }
+        primary: "rgb(255, 95, 31)",
+      },
     },
   },
   plugins: [],

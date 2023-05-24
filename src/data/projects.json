@@ -1,23 +1,23 @@
 [
-    {
-        "id": 1,
-        "name": "Real Time Messenger Web Application",
-        "description": "I developed a real-time messenger web application based on a tutorial from YouTube. By implementing real-time functionality using technologies like Pusher.js and Next.js, I enabled instant messaging and live updates for a dynamic user experience. Throughout the project, I actively engaged with the tutorial content, experimenting with customizations and troubleshooting any challenges, resulting in a functional and user-friendly messaging application.",
-        "stacks": ["Next", "Mongodb", "Prisma", "TailwindCSS", "Zustand", "Pusher"],
-        "href": "https://real-time-messenger-six.vercel.app/" 
-    },
-    {
-        "id": 2,
-        "name": "Web Portolio",
-        "description": "Developed a personal website while learning TypeScript. I enabled efficient data management and personalized content delivery. I created a user-centric and visually compelling digital experience that reflects my personal brand and aspirations.",
-        "stacks": ["Figma", "React", "JavaScript", "TailwindCSS", "Framer Motion"],
-        "href": ""
-    },
-    {
-        "id": 3,
-        "name": "Wedding Invitation",
-        "description": "Designed and developed a captivating wedding invitation website from scratch, showcasing my skills in both web design and front-end development. I crafted a seamless user interface, ensuring an intuitive experience across devices.",
-        "stacks": ["Figma", "React", "JavaScript", "TailwindCSS", "Framer Motion"],
-        "href": "https://jilanfirza.kodetama.id/?to=008bcb41-9252-42b2-9e2e-70986dbbaa37"
-    }
+  {
+    "id": 1,
+    "name": "Real Time Messenger Web Application",
+    "description": "I developed a real-time messenger web application based on a tutorial from YouTube. By implementing real-time functionality using technologies like Pusher.js and Next.js, I enabled instant messaging and live updates for a dynamic user experience. Throughout the project, I actively engaged with the tutorial content, experimenting with customizations and troubleshooting any challenges, resulting in a functional and user-friendly messaging application.",
+    "stacks": ["Next", "Mongodb", "Prisma", "TailwindCSS", "Zustand", "Pusher"],
+    "href": "https://real-time-messenger-six.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "Web Portolio",
+    "description": "Developed a personal website while learning TypeScript. I enabled efficient data management and personalized content delivery. I created a user-centric and visually compelling digital experience that reflects my personal brand and aspirations.",
+    "stacks": ["Figma", "React", "JavaScript", "TailwindCSS", "Framer Motion"],
+    "href": ""
+  },
+  {
+    "id": 3,
+    "name": "Wedding Invitation",
+    "description": "Designed and developed a captivating wedding invitation website from scratch, showcasing my skills in both web design and front-end development. I crafted a seamless user interface, ensuring an intuitive experience across devices.",
+    "stacks": ["Figma", "React", "JavaScript", "TailwindCSS", "Framer Motion"],
+    "href": "https://jilanfirza.kodetama.id/?to=008bcb41-9252-42b2-9e2e-70986dbbaa37"
+  }
 ]
