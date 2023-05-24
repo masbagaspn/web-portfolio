@@ -1,6 +1,5 @@
-import { useContext, useRef, useEffect } from "react";
-
 import experiences from "../../data/experience.json";
+import { useContext, useRef, useEffect } from "react";
 
 import Tags from "../Tags";
 import Card from "../commons/Card";

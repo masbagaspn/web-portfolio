@@ -1,8 +1,14 @@
 import { useState, useEffect } from "react";
 import profile from "../data/profile.json";
 import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
+import profile from "../data/profile.json";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Occupations: React.FC = () => {
+  const [occupationIndex, setOccupationIndex] = useState(0);
+
+  const currIdx = occupationIndex % profile.occupations.length;
   const [occupationIndex, setOccupationIndex] = useState(0);
 
   const currIdx = occupationIndex % profile.occupations.length;
@@ -11,12 +17,22 @@ const Occupations: React.FC = () => {
     const interval = setInterval(() => {
       setOccupationIndex((curr) => curr + 1);
     }, 2000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setOccupationIndex((curr) => curr + 1);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <AnimatePresence>
+      {profile.occupations.map(
+        (occ, idx) =>
+          currIdx === idx && (
       {profile.occupations.map(
         (occ, idx) =>
           currIdx === idx && (
@@ -34,7 +50,15 @@ const Occupations: React.FC = () => {
               className="absolute w-full font-bold text-lg text-lime-500 sm:text-2xl sm:font-medium lg:text-xl"
             >
               {occ}
+              {occ}
             </motion.span>
+          )
+      )}
+    </AnimatePresence>
+  );
+};
+
+export default Occupations;
           )
       )}
     </AnimatePresence>

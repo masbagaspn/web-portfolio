@@ -38,7 +38,7 @@ const About = () => {
                 w.includes("TailwindCSS") ? (
                   <span key={idx} className="text-lime-400">{`${w} `}</span>
                 ) : (
-                  <span key={idx}>{`${w}`}</span>
+                  <span className="xl:mr-1" key={idx}>{`${w}`}</span>
                 )
               )}
           </p>
