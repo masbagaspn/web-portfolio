@@ -36,11 +36,6 @@ const Experiences = () => {
                 <h3>
                   {exp.as} ·<span>{` ${exp.company}`}</span>
                 </h3>
-                {exp?.contract !== null && (
-                  <span className="text-neutral-100/50 sm:text-xl font-light">
-                    {exp.contract}
-                  </span>
-                )}
                 <p className="mt-8 font-light text-sm text-neutral-100 lg:text-base">
                   {exp.description}
                 </p>
