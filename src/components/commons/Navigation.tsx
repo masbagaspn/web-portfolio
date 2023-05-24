@@ -10,16 +10,7 @@ const Navigation = () => {
     const element = document.getElementById(value);
     const position = element?.getBoundingClientRect().top;
     const offset = Number(position) + window.scrollY - 96;
-    const context = useContext(AppContext);
-    const navigation = ["about", "experiences", "projects"];
 
-    const handleClick = (value: string) => {
-      const element = document.getElementById(value);
-      const position = element?.getBoundingClientRect().top;
-      const offset = Number(position) + window.scrollY - 96;
-
-      window.scrollTo({ top: offset });
-    };
     window.scrollTo({ top: offset });
   };
 
