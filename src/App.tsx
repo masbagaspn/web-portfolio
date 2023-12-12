@@ -6,6 +6,7 @@ import About from "./components/sections/About";
 import Experiences from "./components/sections/Experiences";
 import Projects from "./components/sections/Projects";
 import useWindowSize from "./hooks/useWindowSize";
+import { MetaPixel } from "./lib/MetaPixel";
 
 type AppContextValue = {
   sectionInView: string;
@@ -42,24 +43,27 @@ function App() {
   };
 
   return (
-    <AppContext.Provider value={{ sectionInView, setSectionInView }}>
-      <main className="relative bg-neutral-900 max-w-screen min-h-screen font-inter">
-        <motion.div
-          onMouseMove={(event) => handleMouseMove(event)}
-          className="w-full h-full flex flex-col lg:flex-row z-10"
-          style={backgroundContainerStyle}
-        >
-          <div className="lg:w-2/5 lg:h-screen lg:flex lg:flex-col lg:sticky lg:top-0 lg:pl-20 lg:py-24 lg:justify-between">
-            <Profile />
-          </div>
-          <div className="scroll-smooth lg:w-3/5 lg:py-24 lg:px-12 lg:flex lg:flex-col lg:gap-72">
-            <About />
-            <Experiences />
-            <Projects />
-          </div>
-        </motion.div>
-      </main>
-    </AppContext.Provider>
+    <>
+      <MetaPixel />
+      <AppContext.Provider value={{ sectionInView, setSectionInView }}>
+        <main className="relative bg-neutral-900 max-w-screen min-h-screen font-inter">
+          <motion.div
+            onMouseMove={(event) => handleMouseMove(event)}
+            className="w-full h-full flex flex-col lg:flex-row z-10"
+            style={backgroundContainerStyle}
+          >
+            <div className="lg:w-2/5 lg:h-screen lg:flex lg:flex-col lg:sticky lg:top-0 lg:pl-20 lg:py-24 lg:justify-between">
+              <Profile />
+            </div>
+            <div className="scroll-smooth lg:w-3/5 lg:py-24 lg:px-12 lg:flex lg:flex-col lg:gap-72">
+              <About />
+              <Experiences />
+              <Projects />
+            </div>
+          </motion.div>
+        </main>
+      </AppContext.Provider>
+    </>
   );
 }
 

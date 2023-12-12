@@ -6,7 +6,6 @@ import Profile from "../components/sections/Profile";
 import About from "../components/sections/About";
 import Experiences from "../components/sections/Experiences";
 import Projects from "../components/sections/Projects";
-import { MetaPixel } from "../lib/MetaPixel";
 
 type PortfolioContextValue = {
   sectionInView: string;
@@ -46,7 +45,6 @@ function Portfolio() {
 
   return (
     <>
-      <MetaPixel />
       <PortfolioContext.Provider value={{ sectionInView, setSectionInView }}>
         <main className="relative bg-neutral-900 max-w-screen min-h-screen font-inter">
           <motion.div
