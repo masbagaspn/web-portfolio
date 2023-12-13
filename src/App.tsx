@@ -7,6 +7,7 @@ import Experiences from "./components/sections/Experiences";
 import Projects from "./components/sections/Projects";
 import useWindowSize from "./hooks/useWindowSize";
 import { MetaPixel } from "./lib/MetaPixel";
+import { GoogleAnalytics } from "./lib/GoogleAnalytics";
 
 type AppContextValue = {
   sectionInView: string;
@@ -45,6 +46,7 @@ function App() {
   return (
     <>
       <MetaPixel />
+      <GoogleAnalytics />
       <AppContext.Provider value={{ sectionInView, setSectionInView }}>
         <main className="relative bg-neutral-900 max-w-screen min-h-screen font-inter">
           <motion.div
