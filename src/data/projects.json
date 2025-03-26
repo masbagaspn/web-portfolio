@@ -9,15 +9,15 @@
   {
     "id": 2,
     "name": "Web Portolio",
-    "description": "Developed a personal website while learning TypeScript. I enabled efficient data management and personalized content delivery. I created a user-centric and visually compelling digital experience that reflects my personal brand and aspirations.",
+    "description": "Developed a personal website while learning TypeScript. I enabled efficient data management and personalized content delivery. I created a user-centric and visually compelling digital experience that reflects client's personal brand and aspirations.",
     "stacks": ["Figma", "React", "JavaScript", "TailwindCSS", "Framer Motion"],
-    "href": ""
+    "href": "https://alfinputratama.netlify.app/"
   },
   {
     "id": 3,
     "name": "Wedding Invitation",
     "description": "Designed and developed a captivating wedding invitation website from scratch, showcasing my skills in both web design and front-end development. I crafted a seamless user interface, ensuring an intuitive experience across devices.",
     "stacks": ["Figma", "React", "JavaScript", "TailwindCSS", "Framer Motion"],
-    "href": "https://jilanfirza.kodetama.id/?to=008bcb41-9252-42b2-9e2e-70986dbbaa37"
+    "href": "https://testweddingwebsite.netlify.app/"
   }
 ]
